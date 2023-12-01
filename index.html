@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=El+Messiri&family=Lora&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>site</title>
+
+    <script>  
+        setInterval(function () {
+            var now = new Date();
+            var clock = document.getElementById("clock");
+            clock.innerHTML = now.toLocaleTimeString();
+        }, 1000);
+    </script>
+
+    
+</head>
+<body>
+    <header>
+        <img class="logo" src="./images/logo.png">
+        <div class="nav1">
+            <ul class="topmenu">
+                <li><a href="#">О нас</a>
+                    <ul class="submenu">
+                        <li><a href="#">О студии</a></li>
+                        <li><a href="#">Команда</a></li>
+                        <li><a href="#">Блог</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Цены</a>
+                    <ul class="submenu">
+                        <li><a href="#">Дизайн</a>
+                            <ul class="submenu">
+                                <li><a href="#">Комнаты</a></li>
+                                <li><a href="#">Квартиры</a></li>
+                                <li><a href="#">Дома</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Проектирование</a>
+                            <ul class="submenu">
+                                <li><a href="#">Квартиры</a></li>
+                                <li><a href="#">Дома</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">Контакты</a>
+                    <ul class="submenu">
+                        <li><a href="#">+7-921-228-14-88</a></li>
+                        <li><a href="#">abobus1337@gmail.com</a></li>
+                    </ul>
+                </li>
+                <li><a href="https://lizun228.github.io/tur">Проект</a></li>
+            </ul>
+        </div>
+        <div class="clock">
+            <span id="clock"
+                style="color: #000000; padding: 15px; ">
+            </span>
+        </div>
+    </header>
+
+
+
+        <div id="wrap" class="wrap">
+            <div class="cube">
+                <div id="cube" class="cube rotate-y">
+                    <p class="face back"> 
+                        <img class="i" width="260px" src="./images/cube3.png" ></p>
+                    <p class="face front">
+                        <img class="i" width="260px" src="./images/cube1.png" ></p>
+                    <p class="face left">
+                        <img class="i" width="260px" src="./images/cube2.png" ></p>
+                    <p class="face rght">
+                        <img class="i" width="260px" src="./images/cube4.png" ></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="blok-tovar">
+            <div class="tov-text" data-description="Монохромный стиль или черно-белый интерьер. Этот стиль характеризуется преобладанием черного и белого цветов в декоре, мебели и отделке помещения.">
+                <img class="tov" src="./images/tov1.png" height="400px" alt="">
+            </div>
+            <div class="tovar-text">
+                <h2>Поможем вам на всех этапах: от дизайн-проекта до декорирования</h2>
+                <p>Учтем все особенности проекта, чтобы вы не потратили деньги впустую и избежали ошибок со стороны строителей.</p>
+                <p>Вам не надо тратить время на поиск отделочных материалов, мебели и техники — сделаем это за вас.</p>
+                <p>Внимательно относимся к каждому проекту и не бросим вас на этапе строительства и закупки.</p>
+                <p>Подчеркнем и усилим общую стилистику нового интерьера с помощью правильно подобранного декора.</p>
+
+                <div class="blok-buy">
+                    <div class="bonus">        
+                        <div class="bonus_title">
+                            <h6>Этапы</h6>
+                            <div class="plus-minus-toggle collapsed"></div>
+                        </div>
+                        <div class="bonus_content">
+                            <p>1. Дизайн-проект</p>
+                            <p>2. Комплектация</p>
+                            <p>3. Авторский надзор</p>
+                            <p>4. Декорирование</p>
+                        </div>
+                    </div>
+                    <button class="elementy" onclick="location.href='#';">Заказать</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="blok-tovar1">
+            <div class="perspective">
+                <span class="otcrytka"></span>
+            </div>
+            <div class="tovar-text">
+                <h2>ПРОЕКТИРОВАНИЕ ЗАГОРОДНОГО ДОМА</h2>
+                <p class="price-kah"><b>Цена и ценности</b></p>
+                <p>Разве может низкая цена радовать. когда итоговый проект дома не будет соответствовать Вашим ожиданиям. Наши цены немного отличаются от остальных. но это обусловлено профессиональным подходом о скурпулёзной работой над проектом.</p>
+                <div class="modal">
+                    <span class="quest">Цена: 27 200 руб<span class="hint">
+                        <table class="size">
+                            <tr><th>Комната</th><th>м<sup>2</sup></th><th>Цена</th></tr>
+                            <tr><td><b>Прихожая</b></td><td>14,3</td><td>5 720</td></tr>
+                            <tr><td><b>Гостиная</b></td><td>20</td><td>8 000</td></tr>
+                            <tr><td><b>Кухня</b></td><td>12,4</td><td>4 960</td></tr>
+                            <tr><td><b>Санузел</b></td><td>5,7</td><td>2 280</td></tr>
+                            <tr><td><b>Спальня</b></td><td>15,6</td><td>6 240</td></tr>
+                        </table>
+                    </span></span>
+
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p class="name">Борисовский Игорь <br>ИСП-420ир</p> 
+            <div class="animate"></div>
+        </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $('.bonus_title').click(function() {
+            $(this).find('.plus-minus-toggle').toggleClass('collapsed');
+            $(this).parent().toggleClass('active');
+        });
+    </script>
+</body>
+</html>
